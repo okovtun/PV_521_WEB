@@ -5,4 +5,8 @@ HTML special characters:
 https://htmlbook.ru/samhtml/tekst/spetssimvoly
 
 TODO:
+1. Добить статью до конца, все кроме таблиц;
+	https://www.ixbt.com/cpu/cpu-digest-2009.shtml
+
+DONE:
 Залить репозиторий на GitHub и прислать ссылку;

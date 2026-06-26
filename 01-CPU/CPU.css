@@ -3,11 +3,18 @@ body
 {
     font-family:'Roboto Condensed';
     font-size:20px;
+    padding:1% 5%;
 }
 p
 {
     text-align:justify;
+    text-indent:48px;
 }
+    p::first-letter
+    {
+        font-size:32px;
+        font-family:'Segoe Script';
+    }
 figure
 {
     text-align:center;
@@ -23,3 +30,21 @@ ul
     href="URL" hyperreference
     id="name"
 */
+a
+{
+    text-decoration:none;
+}
+    a:active
+    {
+        color:green;
+    }
+    a:visited
+    {
+        color:darkgreen;
+    }
+    a:hover
+    {
+        font-weight:800;
+        background-color:black;
+        color:white;
+    }
