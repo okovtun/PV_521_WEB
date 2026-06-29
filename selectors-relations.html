@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<style>
+		div > p
+		{
+			background-color:limegreen;
+		}
+		body > article > p
+		{
+			background-color:darkred;
+			color:white;
+		}
+		ul + p
+		{
+			background-color:black;
+		}
+	</style>
+</head>
+<body>
+	<p>Просто абзац</p>
+	<article>
+		<p>Абзац в статье</p>
+	</article>
+	<div>
+		<p>Просто абзац, но только в &lt;div-e&gt;</p>
+		<article>
+			<p>Абзац в статье, которая в &lt;div-e&gt;</p>
+		</article>
+	</div>
+	<ul>
+		<li><p>Первый пошел</p></li>
+		<li>Второй пошел</li>
+		<li>Третий пошел</li>
+	</ul>
+	<p>Абзац 1</p>
+	<p>Абзац 2</p>
+	<p>Абзац 3</p>
+</body>
+</html>
