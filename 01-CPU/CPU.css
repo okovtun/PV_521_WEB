@@ -68,7 +68,7 @@ a
 
 :target /*> span*/
 {
-	background-color: limegreen;
+	/*background-color: limegreen;*/
 }
 
 	:target + div
@@ -149,3 +149,4 @@ div
 	/*padding: top left-right bottom;*/
 	/*padding: top right bottom left;*/
 }
+/* ------------------------------------------------------- */
