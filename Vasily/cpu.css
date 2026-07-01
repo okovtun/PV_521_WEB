@@ -1,0 +1,93 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+{
+	font-family: 'Roboto Condensed';
+	font-size: 18px;
+	padding: 1% 5%;
+	/*filter: grayscale(80%);*/
+	background-image: linear-gradient(to bottom, rgb(128, 128, 128, .7), rgba(128, 128, 128, .7)), url('img/pcb.jpg');
+}
+
+h1, h2, h3, h4, cite, a
+{
+	text-shadow: 0 0 4px blanchedalmond, 0 0 4px blanchedalmond, 0 0 4px blanchedalmond, 0 0 4px blanchedalmond;
+}
+
+p
+{
+	text-align: justify;
+	border-radius: 16px;
+	padding: 16px;
+	background-color: blanchedalmond;
+	box-shadow: 0 0 25px 25px rgb(220,220,220,.5);
+}
+
+	p:first-letter
+	{
+		padding-left: 1%;
+		font-size: 200%;
+		font-family: 'Rosewood Std';
+	}
+
+figure
+{
+	text-align: center;
+	font-style: italic;
+	font-weight: 100;
+}
+
+ul
+{
+	list-style: none;
+}
+
+ol
+{
+	font-size: 120%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+	a:visited
+	{
+		color: darkorchid;
+	}
+
+	a:hover
+	{
+		text-shadow: none;
+		font-weight: 800;
+		background-color: black;
+		color: white;
+	}
+
+div
+{
+	border-radius: 16px;
+	background-color: rgba(255, 235, 205, 0.5);
+	padding: 32px;
+}
+
+:target /* > span*/
+{
+	background-color: rgb(119, 123, 198, 0.9);
+	border-radius: 12px;
+	padding: 12px;
+}
+
+	:target + div
+	{
+		border-radius: 16px;
+		background-color: rgba(255, 235, 205, 0.7);
+		box-shadow: 0 0 15px 15px rgb(220,220,220,.8);
+	}
+
+.citation
+{
+	all: unset;
+	border: solid 11px;
+}
