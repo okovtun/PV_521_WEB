@@ -65,6 +65,10 @@ a
 		background-color: black;
 		color: white;
 	}
+#home a:hover
+{
+	background:none;
+}
 
 :target /*> span*/
 {
