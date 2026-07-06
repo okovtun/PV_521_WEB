@@ -13,6 +13,9 @@ Firefox:
 browser.ipProtection.enabled
 
 TODO:
+Добить калькулятор на отдельной ветке;
+
+DONE:
 1. Сверстать таблицу Менделеева;
 
 DONE:
