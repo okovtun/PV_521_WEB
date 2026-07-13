@@ -9,6 +9,9 @@ https://www.spacedesk.net/
 https://gist.github.com/dmitry-osin/c64f7d8eb9ed60cc932c4c56ac7eae22
 https://stackoverflow.com/questions/15901030/how-to-reset-remove-css-styles-for-a-specific-element-or-selector-only
 
+CSS units:
+http://w3schools.com/cssref/css_units.php
+
 Firefox:
 browser.ipProtection.enabled
 
