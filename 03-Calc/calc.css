@@ -231,6 +231,7 @@ input:focus-visible
 	grid-template-rows: repeat(5, auto);
 	grid-template-columns: repeat(6, auto);
 	grid-gap:5px;
+	justify-items:center;
 }
 .square
 {
@@ -248,4 +249,13 @@ input:focus-visible
 	grid-row:1;
 	grid-column-start:2;
 	grid-column-end:7;
+	/*border:solid 1px;*/
+}
+	.clear-buttons > button
+	{
+		width:70px;
+	}
+.menu-bar button, .calc-buttons button
+{
+	font-size:11px;
 }
