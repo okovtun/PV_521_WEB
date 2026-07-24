@@ -36,6 +36,9 @@ function setForegroundColor()
 {
 	document.body.style.color = document.getElementById("foreground-color").value;
 }
+
+let colors = document.getElementById("foreground-color");
+colors.addEventListener("input", setColor);
 function setColor(event)
 {
 	/*
@@ -56,4 +59,22 @@ function setColor(event)
 	*/
 	console.log(event.target.id);
 	//alert("setColor");
+}
+document.addEventListener("mousemove", traceMouse);
+function traceMouse(e)
+{
+	document.getElementById("mouse").innerHTML =
+		`X = ${e.clientX}, Y = ${e.clientY}`;
+}
+
+document.getElementById("switch-background").addEventListener("click", switchBackground);
+function switchBackground(e)
+{
+	let skin = document.body.className;
+	let switchButton = document.getElementById("switch-background");
+	switchButton.src = skin === "dark" ? "moon.png" : "sun.png";
+	document.body.className = skin === "dark" ? "light" : "dark";
+	//document.getElementById("debug-background").innerHTML = switchButton.src;
+	document.getElementById("debug-background").innerHTML = document.body.className;
+
 }
